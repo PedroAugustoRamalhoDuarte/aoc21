@@ -8,4 +8,12 @@ describe Day2 do
       end
     end
   end
+
+  describe '#solution2' do
+    context "when have example input" do
+      it "returns 900" do
+        expect(Day2.solution2('example_input.txt')).to eq(900)
+      end
+    end
+  end
 end
